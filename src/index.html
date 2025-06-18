@@ -1,17 +1,364 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>海宁凯瑞工业智能设备有限公司</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>海宁凯瑞工业智能设备</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#company" class="nav-link">公司介绍</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">产品展示</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#mct-detail" class="nav-link">MCT系统</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">服务介绍</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#news" class="nav-link">新闻资讯</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">联系我们</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-</html>
+    <!-- 首页横幅 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>海宁凯瑞工业智能设备有限公司</h1>
+            <p>专业从事自动化设备及精密零件的设计开发、加工制造</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn-primary">产品展示</a>
+                <a href="#contact" class="btn-secondary">联系我们</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/精密加工设备展示.jpeg" alt="精密加工设备展示" style="width: 400px; height: 300px; object-fit: cover; border-radius: 10px;">
+        </div>
+    </section>
+
+    <!-- 公司介绍 -->
+    <section id="company" class="company-intro">
+        <div class="container">
+            <div class="section-header">
+                <h2>公司介绍</h2>
+                <p>COMPANY INTRODUCTION</p>
+            </div>
+            <div class="company-content">
+                <div class="company-text">
+                    <p>海宁凯瑞工业智能设备有限公司是一家专业从事自动化设备及精密零件的设计开发、加工制造为一体的综合型企业。</p>
+                    <p>专注精密机械零件、精密铝合金零件、数控CNC加工。主要产品涵盖各种机械零部件、铝合金腔体、结构件、光学配件，生物制药零配件加工；通讯产品零部件加工、夹具治具、机床仪器音响面板、散热片等。</p>
+                    <p>拥有CNC加工中心，数控车床铣床，线切割及二次元等检测设备。</p>
+                    <a href="#services" class="read-more-btn">查看详情</a>
+                </div>
+                <div class="company-image">
+                    <img src="images/comp.jpg" alt="海宁凯瑞工业智能设备有限公司生产车间" style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 我们的服务 -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>我们的服务</h2>
+                <p>OUR SERVICES</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>精密机械加工</h3>
+                    <p>为用户提供精密机械零件加工服务，主要包括通过数控扫描获取数据，通过结构优化软件处理后，通过CNC加工等工艺，使硬件设备达到最优。</p>
+                    <a href="#" class="service-link">查看详情</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>自动化设备</h3>
+                    <p>提供工业自动化设备的研发、设计、安装调试，整体方案评估报价，致力于服务高科技研发机构。</p>
+                    <a href="#" class="service-link">查看详情</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏭</div>
+                    <h3>生产制造</h3>
+                    <p>汽车部品、通信部品、电子电器、3D打印设备、3D扫描设备的零配件生产。</p>
+                    <a href="#" class="service-link">查看详情</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔬</div>
+                    <h3>生物成像技术</h3>
+                    <p>基于OCT光学相干断层扫描技术，提供非接触、非破坏的高分辨率实时2D/3D成像解决方案，适用于生物医学研究和工业检测。</p>
+                    <a href="#products" class="service-link">查看详情</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 产品展示 -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>产品展示</h2>
+                <p>THE COMPANY PRODUCTS</p>
+            </div>
+            <div class="product-categories">
+                <div class="category-tabs">
+                    <button class="tab-btn active" data-category="all">全部产品</button>
+                    <button class="tab-btn" data-category="cnc">CNC加工</button>
+                    <button class="tab-btn" data-category="automation">自动化设备</button>
+                    <button class="tab-btn" data-category="precision">精密零件</button>
+                    <button class="tab-btn" data-category="optical">光学配件</button>
+                    <button class="tab-btn" data-category="mct">生物成像系统</button>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card" data-category="cnc">
+                        <a href="product-cnc-machining-center.html" style="color: inherit; text-decoration: none;">
+                            <div class="product-image">
+                                <img src="images/CNC加工中心.jpeg" alt="CNC加工中心零件" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3>CNC加工中心</h3>
+                            <p>高精度CNC加工中心零件制造</p>
+                        </a>
+                    </div>
+                    <div class="product-card" data-category="cnc">
+                        <a href="product-cnc-lathe.html" style="color: inherit; text-decoration: none;">
+                            <div class="product-image">
+                                <img src="images/数控车床加工.jpeg" alt="数控车床加工" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3>数控车床加工</h3>
+                            <p>精密数控车削与车铣复合加工</p>
+                        </a>
+                    </div>
+                    <div class="product-card" data-category="precision">
+                        <a href="product-precision-parts.html" style="color: inherit; text-decoration: none;">
+                            <div class="product-image">
+                                <img src="images/精密零件加工.jpeg" alt="精密零件加工" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3>精密零件加工</h3>
+                            <p>非标定制精密零件制造专家</p>
+                        </a>
+                    </div>
+                    <div class="product-card" data-category="optical">
+                        <a href="product-optical-components.html" style="color: inherit; text-decoration: none;">
+                            <div class="product-image">
+                                <img src="images/光学配件加工.jpeg" alt="光学配件" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3>光学配件加工</h3>
+                            <p>精密光学元件制造专家</p>
+                        </a>
+                    </div>
+                    <div class="product-card" data-category="precision">
+                        <a href="product-medical-devices.html" style="color: inherit; text-decoration: none;">
+                            <div class="product-image">
+                                <img src="images/医疗器械配件加工.jpeg" alt="医疗器械配件" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3>医疗器械配件</h3>
+                            <p>生物医疗精密零件制造专家</p>
+                        </a>
+                    </div>
+                    <div class="product-card" data-category="automation">
+                        <a href="product-automation-equipment.html" style="color: inherit; text-decoration: none;">
+                            <div class="product-image">
+                                <img src="images/自动化设备配件.jpeg" alt="自动化设备配件" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3>自动化设备配件</h3>
+                            <p>工业自动化设备专用配件制造</p>
+                        </a>
+                    </div>
+                    <div class="product-card" data-category="mct">
+                        <a href="product-mct001.html" style="color: inherit; text-decoration: none;">
+                            <div class="product-image">
+                                <img src="images/MCT001.jpg" alt="生物构造成像分析系统 MCT001" style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                            <h3>生物构造成像分析系统 MCT001</h3>
+                            <p>利用OCT技术的高分辨率实时2D/3D成像系统</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MCT001 产品详情 -->
+    <section id="mct-detail" class="mct-detail">
+        <div class="container">
+            <div class="section-header">
+                <h2>生物构造成像分析系统 MCT001</h2>
+                <p>OCT IMAGING SYSTEM</p>
+            </div>
+            <div class="mct-content">
+                <div class="mct-image">
+                    <img src="images/MCT001.jpg" alt="生物构造成像分析系统 MCT001" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                </div>
+                <div class="mct-info">
+                    <div class="mct-description">
+                        <h3>技术原理</h3>
+                        <p>OCT（光学相干断层扫描）是一种利用近红外光非侵入、非接触的成像技术，可以看到生物组织和物体的内部。原理是对样品中的后向散射光和参考光与干涉光进行频率分析，可以详细显示内部结构。</p>
+                        
+                        <h3>产品特点</h3>
+                        <p>MCT001系列可用于研发、工业产品的内部检查等各个领域，以波长扫描光源"HSL系列"为首，开发的最尖端的组件共同构成，能够实时呈现高分辨率的2D或3D 图像。还可对硬件、软件进行定制化服务。</p>
+                    </div>
+                    
+                    <div class="mct-features">
+                        <h3>产品特征</h3>
+                        <ul class="features-list">
+                            <li>非接触、非破坏、非侵入测量</li>
+                            <li>高达30fps 实时、成像</li>
+                            <li>1D&2D&3D的成像功能</li>
+                            <li>检测数据的连续保存功能</li>
+                            <li>扫描角度可以自由设定</li>
+                            <li>输入/输出OCT图像数据和原始数据</li>
+                            <li>图像分析软件（可选）</li>
+                            <li>根据客户的要求定制硬件、软件（可选）</li>
+                            <li>SDK（LabVIEW、C++、C#）</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 新闻资讯 -->
+    <section id="news" class="news">
+        <div class="container">
+            <div class="section-header">
+                <h2>新闻资讯</h2>
+                <p>NEWS CENTER</p>
+            </div>
+            <div class="news-grid">
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/自动化设备配件.jpeg" alt="物流自动化技术" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="news-content">
+                        <h3><a href="news-logistics-automation.html" style="color: inherit; text-decoration: none;">未来物流自动化技术哪些将爆发</a></h3>
+                        <p class="news-date">2024-01-15</p>
+                        <p>目前，中国先进的物流装备和物流技术不断涌现，除了传统的货架、叉车、其它搬运车辆外，诸如自动化立体仓库、各种物流输送设备、高速分拣机...</p>
+                        <a href="news-logistics-automation.html" style="color: #3498db; text-decoration: none; font-size: 0.9rem;">阅读全文 →</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/CNC加工中心.jpeg" alt="工业4.0自动化" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="news-content">
+                        <h3><a href="news-industry-4.html" style="color: inherit; text-decoration: none;">"工业4.0"不仅是自动化</a></h3>
+                        <p class="news-date">2024-01-10</p>
+                        <p>工业4.0这个概念最初来源于德国，代表了第四次工业革命。但很多人对工业4.0的理解仅停留在自动化层面...</p>
+                        <a href="news-industry-4.html" style="color: #3498db; text-decoration: none; font-size: 0.9rem;">阅读全文 →</a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="images/精密零件加工.jpeg" alt="自动化设备发展新趋势" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="news-content">
+                        <h3><a href="news-automation-trends.html" style="color: inherit; text-decoration: none;">自动化设备发展新趋势</a></h3>
+                        <p class="news-date">2024-01-05</p>
+                        <p>随着全球制造业的快速发展和技术革新，自动化设备正迎来前所未有的发展机遇...</p>
+                        <a href="news-automation-trends.html" style="color: #3498db; text-decoration: none; font-size: 0.9rem;">阅读全文 →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>联系我们</h2>
+                <p>CONTACT US</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>联系信息</h3>
+                    <div class="contact-item">
+                        <strong>联系人：</strong>李总
+                    </div>
+                    <div class="contact-item">
+                        <strong>电话：</strong>15924170070
+                    </div>
+                    <div class="contact-item">
+                        <strong>邮箱：</strong>info@kairui-industry.cn
+                    </div>
+                    <div class="contact-item">
+                        <strong>地址：</strong>浙江省海宁市工业园区
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>在线留言</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="姓名" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="电话">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="留言内容" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">发送留言</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>海宁凯瑞工业智能设备有限公司</h3>
+                    <p>Haining Kairui Industrial Intelligent Equipment Co., Ltd.</p>
+                    <p>地址：浙江省海宁市工业园区</p>
+                    <p>联系电话：15924170070</p>
+                    <p>邮箱：info@kairui-industry.cn</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="#home">首页</a>
+                        <a href="#company">公司介绍</a>
+                        <a href="#products">产品展示</a>
+                        <a href="#services">服务介绍</a>
+                        <a href="#contact">联系我们</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 海宁凯瑞工业智能设备有限公司版权所有</p>
+                <p>技术支持：凯瑞科技</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

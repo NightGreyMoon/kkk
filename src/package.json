@@ -1,0 +1,27 @@
+{
+  "name": "haining-kairui-website",
+  "version": "1.0.0",
+  "description": "海宁凯瑞工业智能设备有限公司官方网站",
+  "main": "index.html",
+  "scripts": {
+    "start": "swa start",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "swa deploy . --deployment-token %SWA_CLI_DEPLOYMENT_TOKEN% --env production",
+    "deploy-preview": "swa deploy . --deployment-token %SWA_CLI_DEPLOYMENT_TOKEN% --env preview"
+  },
+  "keywords": [
+    "static-website",
+    "azure-static-web-apps",
+    "precision-manufacturing",
+    "cnc-machining",
+    "automation-equipment"
+  ],
+  "author": "海宁凯瑞工业智能设备有限公司",
+  "license": "MIT",
+  "devDependencies": {
+    "@azure/static-web-apps-cli": "^2.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+} 
