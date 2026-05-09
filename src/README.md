@@ -72,6 +72,7 @@
 - 精密零件（特殊塑料材料零件、表面处理、生物制药零件）
 - 自动化设备（自动化设备配件）
 - 光学配件（光学行业配件）
+- 类器官自动化（类器官自动化工作站 KR-AutoOrg）
 - 生物成像系统（生物构造成像分析系统 MCT001）
 
 ### MCT001 特色产品
@@ -117,6 +118,8 @@
 - `product-optical-components.html` - 光学配件加工产品详情页
 - `product-medical-devices.html` - 医疗器械配件产品详情页
 - `product-automation-equipment.html` - 自动化设备配件产品详情页
+- `product-auto-organoid.html` - 类器官自动化工作站产品详情页
+- `product-mct001.html` - 生物构造成像分析系统产品详情页
 
 ### 产品页面访问方式
 - CNC加工中心：`yourdomain.com/product-cnc-machining-center`
@@ -125,6 +128,8 @@
 - 光学配件加工：`yourdomain.com/product-optical-components`
 - 医疗器械配件：`yourdomain.com/product-medical-devices`
 - 自动化设备配件：`yourdomain.com/product-automation-equipment`
+- 类器官自动化工作站：`yourdomain.com/product-auto-organoid`
+- 生物构造成像分析系统：`yourdomain.com/product-mct001`
 
 ### 产品页面特点
 - 详细的产品介绍和技术规格
